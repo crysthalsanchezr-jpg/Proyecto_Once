@@ -12173,3 +12173,54 @@ button:focus-visible,
     gap: 10px;
   }
 }
+
+section.container {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    border-radius: 1rem;
+    color: #f8fafc;
+}
+
+.titulo-pagina {
+    font-weight: 800;
+    background: linear-gradient(90deg, #818cf8 0%, #c084fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+}
+
+.subtitulo-pagina {
+    color: #cbd5e1 !important;
+    font-size: 1.1rem;
+}
+
+.card {
+    background-color: #1e293b !important; 
+    border: 1px solid rgba(129, 140, 248, 0.2) !important; 
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 1rem !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 30px -10px rgba(99, 102, 241, 0.2) !important;
+    border-color: rgba(192, 132, 252, 0.4) !important;
+}
+
+.card h3, .card .card-title {
+    color: #e2e8f0 !important;
+    font-weight: 700;
+    border-bottom: 2px solid #6366f1; 
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p, .card .card-text {
+    color: #94a3b8 !important; 
+    line-height: 1.7;
+}
+
+.card strong, .card em {
+    color: #c084fc !important; 
+    font-weight: 600;
+}
